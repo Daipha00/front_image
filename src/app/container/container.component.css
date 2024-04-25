@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Adjust as needed */
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.main-container {
+    display: flex;
+    flex: 1;
+}
+
+.side-bar {
+    background-color: #f4f4f4;
+    width: 250px; /* Adjust width as needed */
+    min-width: 200px; /* Set a minimum width */
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: auto;
+}
+.content-inner{
+    width: 100%;
+}
